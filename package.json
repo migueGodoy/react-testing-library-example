@@ -1,0 +1,28 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "happy-dom": "^8.1.1",
+    "standard": "^17.0.0",
+    "vitest": "^0.26.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "mathjs": "^11.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
